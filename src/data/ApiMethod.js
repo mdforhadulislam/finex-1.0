@@ -1,7 +1,7 @@
 import dotenv from "dotenv";
 dotenv.config("../../../");
 
-export const ROOT_API =  "https://www.finex.ltd"
+export const ROOT_API =  "https://finex-swart.vercel.app/"
 // export const ROOT_API =  "http://localhost:3000"
 export const HEALTH_API = `${ROOT_API}/api/health`;
 

@@ -30,6 +30,11 @@ export default function Home() {
           property="og:description"
           content="Finex provides fast, reliable, and affordable international shipping solutions. Learn about our services and how we can help with your shipping needs."
         />
+        <meta property="twitter:image" content="Twitter link preview image URL"></meta>
+        <meta property="twitter:card" content="summary_large_image"></meta>
+        <meta property="og:image" content="Link preview image URL"></meta>
+        <meta property="og:site_name" content="Link preview site name"></meta>
+        <meta property="og:url" content="Canonical link preview URL"></meta>
       </Head>
       <HomeHeroSection />
       <HeroServiceSection />

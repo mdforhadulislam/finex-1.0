@@ -10,5 +10,9 @@ const compareHash = (string, hashString) => {
   return bcrypt.compareSync(string, hashString);
 };
 
+
+console.log();
+
+
 module.exports={convartHash,compareHash}
 
